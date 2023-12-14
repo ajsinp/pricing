@@ -7,7 +7,7 @@ const Money = () => {
             <div classname="head-list">
                 <h4 style={{color: "blueviolet", fontFamily: "sans-serif", fontWeight: "lighter"}}>PRICING</h4>
                 <h1
-                    style={{fontFfamily: sans-serif, letterSpacing: "0.1cm", color: "rgb(186, 195, 217)"; fontSize: "xx-large"}}>
+                    style={{fontFfamily: sans-serif, letterSpacing: "0.1cm", color: "rgb(186, 195, 217)", fontSize: "xx-large"}}>
                     Simple pricing</h1>
                 <h3 style={{color: "rgb(148, 151, 158)", fontFamily: "sans-serif", fontWeight: "lighter"}}>Upgrade for
                     extra features and collaboration with your team.
@@ -585,65 +585,10 @@ const Money = () => {
             </div>
         </div>
 
-        <script>
-
-
-
-
-
-
-document.addEventListener('DOMContentLoaded', function () {
-      var headings = document.querySelectorAll('.frame_kit1 h2');
-      var listItems = document.querySelectorAll('.frame_kit1 ul');
-
-      window.addEventListener('scroll', function () {
-        var scrollPosition = window.scrollY;
-
-        headings.forEach(function (heading, index) {
-          var ul = document.querySelector(`#${heading.id} + ul`);
-          var rect = ul.getBoundingClientRect();
-
-          if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
-            headings.forEach(function (h) {
-              h.classList.remove('active');
-            });
-
-            heading.classList.add('active');
-          }
-        });
-
-        listItems.forEach(function (ul) {
-          var rect = ul.getBoundingClientRect();
-
-          if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
-            listItems.forEach(function (list) {
-              list.classList.remove('active');
-            });
-
-            ul.classList.add('active');
-          }
-        });
-      });
-    });
-
-
-
-            function toggleAnswer(question) {
-                var answer = question.nextElementSibling;
-                answer.style.display = (answer.style.display === 'none' || answer.style.display === '') ? 'block' : 'none';
-            }
-
-
-
-
-
-
-
-
-        </script>
+        
 
     </div>
-    </div>
+
 
 
     )
