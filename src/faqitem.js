@@ -13,7 +13,7 @@ const FaqItem = ({ index, isOpen, question, answer, onToggle }) => {
   return (
     <div className="faqcontainer" id={`faq-item-${index}`}>
       <div onClick={handleClick} className="faq-question">
-    <h3 className="faq-question" style={{ paddingBottom: "10px", color: "rgb(148, 151, 158)", fontWeight: "lighter" }}>
+    <h3 className="faq-question" style={{color: "rgb(148, 151, 158)", fontWeight: "lighter" }}>
   {question}  </h3>  <span className="icon-st">{isOpen ? '×' : '+'}</span>
       
  </div>

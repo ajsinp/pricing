@@ -21,8 +21,8 @@ const FAQ = () => {
 
     return (
         <div className='faqcontainer'>
-            <div className='head-list'><h1 style={{ fontFamily: "Arial" }}>Frequently Asked Questions</h1>
-                <h3 style={{ fontWeight: "lighter" }}>Seamlessly use your preferred tools for unified work, start to finish.</h3>
+            <div className='head-list'><h1 className='list' style={{ fontFamily: "Arial" }}>Frequently Asked Questions</h1>
+                <h3 className='list-1' style={{ fontWeight: "lighter" }}>Seamlessly use your preferred tools for unified work, start to finish.</h3>
             </div>
             {faqData.map((item, index) => (
                 <div className='question'>
@@ -43,6 +43,3 @@ const FAQ = () => {
 };
 
 export default FAQ;
-{/*<div key={item.id} onClick={() => handleToggle(item.index)} style={{ cursor: 'pointer' }}>*/ }
-{/*<h3 className='question' style={{borderBottom: 'solid 1px #292626', paddingBottom:"10px", color:"rgb(148, 151, 158)", fontWeight:"lighter"}}>{item.question}<span style={{gap:"100px"}}>+</span></h3>
-          {openIndex === item.id && <p>{item.answer}</p>}*/}

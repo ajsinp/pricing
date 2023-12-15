@@ -8,10 +8,9 @@ const Money = () => {
         <div className="header">
             <div className="head-list">
                 <h4 style={{color: "blueviolet", fontFamily: "sans-serif", fontWeight: "lighter"}}>PRICING</h4>
-                <h1
-                    style={{fontFfamily: "sans-serif", letterSpacing: "0.1cm", color: "rgb(186, 195, 217)", fontSize: "xx-large"}}>
+                <h1 className="list" style={{fontFfamily: "sans-serif", letterSpacing: "0.1cm", color: "rgb(186, 195, 217)", fontSize: "xx-large"}}>
                     Simple pricing</h1>
-                <h3 style={{color: "rgb(148, 151, 158)", fontFamily: "sans-serif", fontWeight: "lighter"}}>Upgrade for
+                <h3 className="list-1" style={{color: "rgb(148, 151, 158)", fontFamily: "sans-serif", fontWeight: "lighter"}}>Upgrade for
                     extra features and collaboration with your team.
                 </h3>
             </div>
@@ -27,63 +26,63 @@ const Money = () => {
                 </div>
                 <div className="content">
                     <div>
-                        <h1>$0<span>/free</span></h1>
+                        <h1 className='list'>$0<span>/free</span></h1>
                     </div>
                     <div>
-                        <h1>What's included:</h1>
+                        <h1 className='list'>What's included:</h1>
                     </div>
                     <div>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(148, 151, 158)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Unlimited tasks</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(148, 151, 158)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Unlimited projects</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(148, 151, 158)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Unlimited messages</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(148, 151, 158)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Unlimited activity log</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(148, 151, 158)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;File storage (100MB )</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(148, 151, 158)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Custom fields</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(148, 151, 158)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;List view projects</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(148, 151, 158)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Board view projects</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(148, 151, 158)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Calendar view</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(148, 151, 158)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Assignee and due dates</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(148, 151, 158)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
@@ -104,63 +103,63 @@ const Money = () => {
                 </div>
                 <div className="content">
                     <div>
-                        <h1>$9<span>/per user</span></h1>
+                        <h1 className='list'>$9<span>/per user</span></h1>
                     </div>
                     <div>
-                        <h1>What's included:</h1>
+                        <h1 className='list'>What's included:</h1>
                     </div>
                     <div>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="green">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Timeline</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="green">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Workflow Builder</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="green">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Unlimited Dashboards</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="green">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Unlimited projects</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="green">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Advanced search</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="green">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Custom fields</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="green">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Forms</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="green">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Rules</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="green">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Task Templates</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="green">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Private teams & projects</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="green">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
@@ -181,63 +180,63 @@ const Money = () => {
                 </div>
                 <div className="content">
                     <div>
-                        <h1>$19<span>/unlimited</span></h1>
+                        <h1 className='list'>$19<span>/unlimited</span></h1>
                     </div>
                     <div>
-                        <h1>What's included:</h1>
+                        <h1 className='list'>What's included:</h1>
                     </div>
                     <div>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(87, 42, 165)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Portfolios</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(87, 42, 165)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Goals</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(87, 42, 165)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Workload</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(87, 42, 165)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Custom rules builder</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(87, 42, 165)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Forms branching</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(87, 42, 165)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Approvals</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(87, 42, 165)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Proofing</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(87, 42, 165)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Lock custom fields</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(87, 42, 165)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Advanced reporting</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(87, 42, 165)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Time Tracking</h3>
-                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <h3 className='list-1'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                 fill="rgb(87, 42, 165)">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
@@ -251,10 +250,9 @@ const Money = () => {
         </div>
         <div className="container">
             <div className="head-list">
-                <h1
-                    style={{fontFamily: "sans-serif", letterSpacing: "0.1cm", color: "rgb(186, 195, 217)", fontSize: "xx-large"}}>
+                <h1 className= 'list' style={{fontFamily: "sans-serif", letterSpacing: "0.1cm", color: "rgb(186, 195, 217)", fontSize: "xx-large"}}>
                     Compare plans & features</h1>
-                <h3 style={{color:" rgb(148, 151, 158)", fontFamily: "sans-serif", fontWeight: "lighter"}}>
+                <h3 className='list-1' style={{color:" rgb(148, 151, 158)", fontFamily: "sans-serif", fontWeight: "lighter"}}>
                     Overview of what’s included in our different plans.
                 </h3>
             </div>
@@ -264,7 +262,7 @@ const Money = () => {
                     <div className="frame3">
                         <div className="frame4">
                             <div>
-                                <h3>BASIC <br/>$0 / free</h3>
+                                <h3 className='list-1'>BASIC <br/>$0 / free</h3>
                             </div>
                             <div><button className="start4">Start for Free</button></div>
                         </div>
@@ -274,7 +272,7 @@ const Money = () => {
                     <div className="frame3">
                         <div className="frame4">
                             <div>
-                                <h3>PREMIUM <br/>$0 / 50 users</h3>
+                                <h3 className='list-1'>PREMIUM <br/>$0 / 50 users</h3>
                             </div>
                             <div><button className="start5">Get Premium</button></div>
                         </div>
@@ -285,7 +283,7 @@ const Money = () => {
                     <div className="frame3">
                         <div className="frame4">
                             <div>
-                                <h3>BUSINESS <br/>$0 / unlimited</h3>
+                                <h3 className='list-1'>BUSINESS <br/>$0 / unlimited</h3>
                             </div>
                             <div><button className="start6">Get Business</button></div>
                         </div>
@@ -377,7 +375,7 @@ const Money = () => {
 
 
 
-                    <h2 id="features">FEATURES</h2>
+                    <h2 id="usage">FEATURES</h2>
 
                     <ul className='task'>
                         <li className='un-task'>Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -447,7 +445,7 @@ const Money = () => {
 
                     </ul>
 
-                    <h2 id="analytics">ANALYTICS</h2>
+                    <h2 id="usage">ANALYTICS</h2>
 
 
                     <ul className='task'>
@@ -475,7 +473,7 @@ const Money = () => {
 
                     </ul>
 
-                    <h2 id="security">SECURITY</h2>
+                    <h2 id="usage">SECURITY</h2>
                     <ul className='task'>
 
                         <li className='un-task'>SSO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -504,7 +502,7 @@ const Money = () => {
                         <li className='un-task'>App management</li>
                         <li className='un-task'>Domain claimaing</li>
                     </ul>
-                    <h2 id="support">SUPPORT</h2>
+                    <h2 id="usage">SUPPORT</h2>
                     <ul className='task'>
                         <li className='un-task'>Priority support</li>
                     </ul>
