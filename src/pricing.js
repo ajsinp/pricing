@@ -1,29 +1,31 @@
 import React from 'react';
 
+
 const Money = () => {
+    
     return (
-        <div classname="container">
-        <div classname="header">
-            <div classname="head-list">
+        <div className="container">
+        <div className="header">
+            <div className="head-list">
                 <h4 style={{color: "blueviolet", fontFamily: "sans-serif", fontWeight: "lighter"}}>PRICING</h4>
                 <h1
-                    style={{fontFfamily: sans-serif, letterSpacing: "0.1cm", color: "rgb(186, 195, 217)", fontSize: "xx-large"}}>
+                    style={{fontFfamily: "sans-serif", letterSpacing: "0.1cm", color: "rgb(186, 195, 217)", fontSize: "xx-large"}}>
                     Simple pricing</h1>
                 <h3 style={{color: "rgb(148, 151, 158)", fontFamily: "sans-serif", fontWeight: "lighter"}}>Upgrade for
                     extra features and collaboration with your team.
                 </h3>
             </div>
         </div>
-        <div classname="price-details">
-            <div classname="box">
-                <div classname="logo">
-                    <div classname="circle"><svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><path d="m56 100v68l72 68v-68h72l-144-136h144v68z" opacity=".2"/><path d="m128.00171 244a7.9983 7.9983 0 0 1 -5.49463-2.18408l-72-68a7.99871 7.99871 0 0 1 -2.50708-5.81592v-68a7.99993 7.99993 0 0 1 8-8h51.87817l-57.37109-54.18408a7.99982 7.99982 0 0 1 5.49292-13.81592h144a7.99993 7.99993 0 0 1 8 8v68a7.99993 7.99993 0 0 1 -8 8h-51.87817l57.37109 54.18408a7.99982 7.99982 0 0 1 -5.49292 13.81592h-64v60a7.9996 7.9996 0 0 1 -7.99829 8zm-64.00171-79.44824 56 52.88867v-49.44043a7.99993 7.99993 0 0 1 8-8h51.87817l-55.05883-52h-60.81934zm67.18066-72.55176h60.81934v-52h-115.87817z"/></svg></div>
+        <div className="price-details">
+            <div className="box">
+                <div className="logo">
+                    <div className="circle"><svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><path d="m56 100v68l72 68v-68h72l-144-136h144v68z" opacity=".2"/><path d="m128.00171 244a7.9983 7.9983 0 0 1 -5.49463-2.18408l-72-68a7.99871 7.99871 0 0 1 -2.50708-5.81592v-68a7.99993 7.99993 0 0 1 8-8h51.87817l-57.37109-54.18408a7.99982 7.99982 0 0 1 5.49292-13.81592h144a7.99993 7.99993 0 0 1 8 8v68a7.99993 7.99993 0 0 1 -8 8h-51.87817l57.37109 54.18408a7.99982 7.99982 0 0 1 -5.49292 13.81592h-64v60a7.9996 7.9996 0 0 1 -7.99829 8zm-64.00171-79.44824 56 52.88867v-49.44043a7.99993 7.99993 0 0 1 8-8h51.87817l-55.05883-52h-60.81934zm67.18066-72.55176h60.81934v-52h-115.87817z"/></svg></div>
                     <div>
                         <p style={{padding: "20px 0 0 25px", fontFamily: "sans-serif ", color: "rgb(148, 151, 158)"}}>BASIC
                         </p>
                     </div>
                 </div>
-                <div classname="content">
+                <div className="content">
                     <div>
                         <h1>$0<span>/free</span></h1>
                     </div>
@@ -86,21 +88,21 @@ const Money = () => {
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Unlimited file viewers</h3>
-                        <button classname="start">Start for free</button>
+                        <button className="start">Start for free</button>
                     </div>
 
                 </div>
 
             </div>
-            <div classname="box">
-                <div classname="logo">
-                    <div classname="circle2"><svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><path d="m56 100v68l72 68v-68h72l-144-136h144v68z" opacity=".2"/><path d="m128.00171 244a7.9983 7.9983 0 0 1 -5.49463-2.18408l-72-68a7.99871 7.99871 0 0 1 -2.50708-5.81592v-68a7.99993 7.99993 0 0 1 8-8h51.87817l-57.37109-54.18408a7.99982 7.99982 0 0 1 5.49292-13.81592h144a7.99993 7.99993 0 0 1 8 8v68a7.99993 7.99993 0 0 1 -8 8h-51.87817l57.37109 54.18408a7.99982 7.99982 0 0 1 -5.49292 13.81592h-64v60a7.9996 7.9996 0 0 1 -7.99829 8zm-64.00171-79.44824 56 52.88867v-49.44043a7.99993 7.99993 0 0 1 8-8h51.87817l-55.05883-52h-60.81934zm67.18066-72.55176h60.81934v-52h-115.87817z"/></svg></div>
+            <div className="box">
+                <div className="logo">
+                    <div className="circle2"><svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><path d="m56 100v68l72 68v-68h72l-144-136h144v68z" opacity=".2"/><path d="m128.00171 244a7.9983 7.9983 0 0 1 -5.49463-2.18408l-72-68a7.99871 7.99871 0 0 1 -2.50708-5.81592v-68a7.99993 7.99993 0 0 1 8-8h51.87817l-57.37109-54.18408a7.99982 7.99982 0 0 1 5.49292-13.81592h144a7.99993 7.99993 0 0 1 8 8v68a7.99993 7.99993 0 0 1 -8 8h-51.87817l57.37109 54.18408a7.99982 7.99982 0 0 1 -5.49292 13.81592h-64v60a7.9996 7.9996 0 0 1 -7.99829 8zm-64.00171-79.44824 56 52.88867v-49.44043a7.99993 7.99993 0 0 1 8-8h51.87817l-55.05883-52h-60.81934zm67.18066-72.55176h60.81934v-52h-115.87817z"/></svg></div>
                     <div>
                         <p style={{padding: "20px 0 0 25px", fontFamily: "sans-serif" , color: "rgb(148, 151, 158)"}}>PREMIUM
                         </p>
                     </div>
                 </div>
-                <div classname="content">
+                <div className="content">
                     <div>
                         <h1>$9<span>/per user</span></h1>
                     </div>
@@ -163,21 +165,21 @@ const Money = () => {
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Unlimited free quests</h3>
-                        <button classname="start2">Get Premium</button>
+                        <button className="start2">Get Premium</button>
                     </div>
 
                 </div>
 
             </div>
-            <div classname="box">
-                <div classname="logo">
-                    <div classname="circle3"><svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><path d="m56 100v68l72 68v-68h72l-144-136h144v68z" opacity=".2"/><path d="m128.00171 244a7.9983 7.9983 0 0 1 -5.49463-2.18408l-72-68a7.99871 7.99871 0 0 1 -2.50708-5.81592v-68a7.99993 7.99993 0 0 1 8-8h51.87817l-57.37109-54.18408a7.99982 7.99982 0 0 1 5.49292-13.81592h144a7.99993 7.99993 0 0 1 8 8v68a7.99993 7.99993 0 0 1 -8 8h-51.87817l57.37109 54.18408a7.99982 7.99982 0 0 1 -5.49292 13.81592h-64v60a7.9996 7.9996 0 0 1 -7.99829 8zm-64.00171-79.44824 56 52.88867v-49.44043a7.99993 7.99993 0 0 1 8-8h51.87817l-55.05883-52h-60.81934zm67.18066-72.55176h60.81934v-52h-115.87817z"/></svg></div>
+            <div className="box">
+                <div className="logo">
+                    <div className="circle3"><svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><path d="m56 100v68l72 68v-68h72l-144-136h144v68z" opacity=".2"/><path d="m128.00171 244a7.9983 7.9983 0 0 1 -5.49463-2.18408l-72-68a7.99871 7.99871 0 0 1 -2.50708-5.81592v-68a7.99993 7.99993 0 0 1 8-8h51.87817l-57.37109-54.18408a7.99982 7.99982 0 0 1 5.49292-13.81592h144a7.99993 7.99993 0 0 1 8 8v68a7.99993 7.99993 0 0 1 -8 8h-51.87817l57.37109 54.18408a7.99982 7.99982 0 0 1 -5.49292 13.81592h-64v60a7.9996 7.9996 0 0 1 -7.99829 8zm-64.00171-79.44824 56 52.88867v-49.44043a7.99993 7.99993 0 0 1 8-8h51.87817l-55.05883-52h-60.81934zm67.18066-72.55176h60.81934v-52h-115.87817z"/></svg></div>
                     <div>
                         <p style={{padding: "20px 0 0 25px", fontFamily: "sans-serif" , color: "rgb(148, 151, 158)"}}>
                             BUSINESS</p>
                     </div>
                 </div>
-                <div classname="content">
+                <div className="content">
                     <div>
                         <h1>$19<span>/unlimited</span></h1>
                     </div>
@@ -240,15 +242,15 @@ const Money = () => {
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                             </svg>&nbsp;&nbsp;Advanced integrations</h3>
-                        <button classname="start3">Get Business</button>
+                        <button className="start3">Get Business</button>
                     </div>
 
                 </div>
 
             </div>
         </div>
-        <div classname="container">
-            <div classname="head-list">
+        <div className="container">
+            <div className="head-list">
                 <h1
                     style={{fontFamily: "sans-serif", letterSpacing: "0.1cm", color: "rgb(186, 195, 217)", fontSize: "xx-large"}}>
                     Compare plans & features</h1>
@@ -257,119 +259,119 @@ const Money = () => {
                 </h3>
             </div>
 
-            <div classname="frame1">
-                <div classname="frame2">
-                    <div classname="frame3">
-                        <div classname="frame4">
+            <div className="frame1">
+                <div className="frame2">
+                    <div className="frame3">
+                        <div className="frame4">
                             <div>
                                 <h3>BASIC <br/>$0 / free</h3>
                             </div>
-                            <div><button classname="start4">Start for Free</button></div>
+                            <div><button className="start4">Start for Free</button></div>
                         </div>
                     </div>
                 </div>
-                <div classname="frame5">
-                    <div classname="frame3">
-                        <div classname="frame4">
+                <div className="frame5">
+                    <div className="frame3">
+                        <div className="frame4">
                             <div>
                                 <h3>PREMIUM <br/>$0 / 50 users</h3>
                             </div>
-                            <div><button classname="start5">Get Premium</button></div>
+                            <div><button className="start5">Get Premium</button></div>
                         </div>
 
                     </div>
                 </div>
-                <div classname="frame6">
-                    <div classname="frame3">
-                        <div classname="frame4">
+                <div className="frame6">
+                    <div className="frame3">
+                        <div className="frame4">
                             <div>
                                 <h3>BUSINESS <br/>$0 / unlimited</h3>
                             </div>
-                            <div><button classname="start6">Get Business</button></div>
+                            <div><button className="start6">Get Business</button></div>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <div classname="frame_kit">
-                <div classname="frame_kit1">
+            <div className="frame_kit">
+                <div className="frame_kit1">
 
 
                     <h2 id="usage">USAGE</h2>
 
-                    <ul>
-                        <li>Unlimited task&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                    <ul className='task'>
+                        <li className='un-task'>Unlimited task&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                             fill="rgb(148, 151, 158)">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                         fill="green">
                         <path d="M0 0h24v24H0z" fill="none" />
                         <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                    </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                    </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                     fill="rgb(87, 42, 165)">
                     <path d="M0 0h24v24H0z" fill="none" />
                     <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                 </svg></li>
-                        <li>Unlimited task&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <li className='un-task'>Unlimited task&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                             fill="rgb(148, 151, 158)">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                         fill="green">
                         <path d="M0 0h24v24H0z" fill="none" />
                         <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                    </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                    </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                     fill="rgb(87, 42, 165)">
                     <path d="M0 0h24v24H0z" fill="none" />
                     <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                 </svg></li>
-                        <li>Unlimited message&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <li className='un-task'>Unlimited message&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                             fill="rgb(148, 151, 158)">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                         fill="green">
                         <path d="M0 0h24v24H0z" fill="none" />
                         <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                    </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                    </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                     fill="rgb(87, 42, 165)">
                     <path d="M0 0h24v24H0z" fill="none" />
                     <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                </svg></li>
-                        <li>Activity log&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                    </svg></li>
+                        <li className='un-task'>Activity log&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                             fill="rgb(148, 151, 158)">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                         </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                         fill="green">
                         <path d="M0 0h24v24H0z" fill="none" />
                         <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                    </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                    </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                     fill="rgb(87, 42, 165)">
                     <path d="M0 0h24v24H0z" fill="none" />
                     <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                </svg></li>
+                    </svg></li>
 
                     </ul>
 
@@ -377,216 +379,139 @@ const Money = () => {
 
                     <h2 id="features">FEATURES</h2>
 
-                    <ul>
-                        <li>Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <ul className='task'>
+                        <li className='un-task'>Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                             fill="rgb(148, 151, 158)">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                         fill="green">
                         <path d="M0 0h24v24H0z" fill="none" />
                         <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                    </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                     fill="rgb(87, 42, 165)">
                     <path d="M0 0h24v24H0z" fill="none" />
                     <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                </svg></li>
-                        <li>Integrations&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </svg></li>
+                        <li className='un-task'>Integrations&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                             fill="rgb(148, 151, 158)">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</li>
-                        <li>Web hooks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                        <li className='un-task'>Web hooks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                             fill="rgb(148, 151, 158)">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                         fill="green">
                         <path d="M0 0h24v24H0z" fill="none" />
                         <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                    </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                    </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                     fill="rgb(87, 42, 165)">
                     <path d="M0 0h24v24H0z" fill="none" />
                     <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                 </svg></li>
-                        <li>Import and export&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <li className='un-task'>Import and export&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                             fill="rgb(148, 151, 158)">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                         fill="green">
                         <path d="M0 0h24v24H0z" fill="none" />
                         <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                    </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                     fill="rgb(87, 42, 165)">
                     <path d="M0 0h24v24H0z" fill="none" />
                     <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                 </svg></li>
-                        <li>Private teams</li>
-                        <li>Guest accounts</li>
-                        <li>SLAs</li>
+                        <li className='un-task'>Private teams</li>
+                        <li className='un-task'>Guest accounts</li>
+                        <li className='un-task'>SLAs</li>
 
                     </ul>
 
                     <h2 id="analytics">ANALYTICS</h2>
 
 
-                    <ul>
+                    <ul className='task'>
 
-                        <li>Progress report&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        <li className='un-task'>Progress report&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                             fill="rgb(148, 151, 158)">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                         fill="green">
                         <path d="M0 0h24v24H0z" fill="none" />
                         <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                    </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                    </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                     fill="rgb(87, 42, 165)">
                     <path d="M0 0h24v24H0z" fill="none" />
                     <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                </svg></li>
-                        <li>Insight</li>
-                        <li>Data warehouse</li>
+                    </svg></li>
+                        <li className='un-task'>Insight</li>
+                        <li className='un-task'>Data warehouse</li>
 
                     </ul>
 
                     <h2 id="security">SECURITY</h2>
-                    <ul>
+                    <ul className='task'>
 
-                        <li>SSO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <li className='un-task'>SSO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                             fill="rgb(148, 151, 158)">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                         fill="green">
                         <path d="M0 0h24v24H0z" fill="none" />
                         <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                    </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                    </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                     fill="rgb(87, 42, 165)">
                     <path d="M0 0h24v24H0z" fill="none" />
                     <path d="M9 16.17L5.83 13l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                </svg></li>
-                        <li>Admin tools</li>
-                        <li>Advance history</li>
-                        <li>Authetenction</li>
-                        <li>Audit log</li>
-                        <li>App management</li>
-                        <li>Domain claimaing</li>
+                    </svg></li>
+                        <li className='un-task'>Admin tools</li>
+                        <li className='un-task'>Advance history</li>
+                        <li className='un-task'>Authetenction</li>
+                        <li className='un-task'>Audit log</li>
+                        <li className='un-task'>App management</li>
+                        <li className='un-task'>Domain claimaing</li>
                     </ul>
                     <h2 id="support">SUPPORT</h2>
-                    <ul>
-
-                        <li>Priority support</li>
+                    <ul className='task'>
+                        <li className='un-task'>Priority support</li>
                     </ul>
                 </div>
             </div>
 
         </div>
-        <div classname="container">
-            <div classname="head-list">
-                <h1 style={{fontFamily: "Arial"}}>Frequently Asked Questions</h1>
-                <h3 style={{fontWeight: "lighter"}}>Seamlessly use your preferred tools for unified work, start to finish.
-                </h3>
-            </div>
-            <div classname="faq-container">
-                <div classname="faq-question" onclick="toggleAnswer(this)">
-                    <h3>Question 1: What is
-                        Worko?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#43;
-                    </h3>
-                </div>
-                <div classname="faq-answer">
-                    <p>Worko is a task management application designed to help users organize their daily tasks, prioritize work, and improve productivity. 
-                        It's a user-friendly tool that streamlines work management for individuals and teams.</p>
-                </div>
-            </div>
-        </div>
-        <div classname="faq-container">
-            <div classname="faq-question" onclick="toggleAnswer(this)">
-                <h3>How can I get started with
-                    Worko?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#43;
-                </h3>
-            </div>
-            <div classname="faq-answer">
-                <p>To get started with Worko, visit our website or download the Worko app from your device's app store. 
-                    Once installed, create an account, and you can start managing your tasks immediately.</p>
-            </div>
-        </div>
-        <div classname="faq-container">
-            <div classname="faq-question" onclick="toggleAnswer(this)">
-                <h3>Is Worko available on multiple
-                    platforms?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#43;
-                </h3>
-            </div>
-            <div classname="faq-answer">
-                <p>Yes, Worko is available on various platforms, including web browsers, iOS, Android, and desktop applications.
-                     This ensures that you can access your tasks from any device.</p>
-            </div>
-        </div>
-        <div classname="faq-container">
-            <div classname="faq-question" onclick="toggleAnswer(this)">
-                <h3>What features does Worko offer for task
-                    management?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#43;
-                </h3>
-            </div>
-            <div classname="faq-answer">
-                <p>Worko provides features such as task creation, due dates, priority levels, task categorization, task sharing, notifications, and progress tracking.
-                     Users can also create recurring tasks and set reminders.</p>
-            </div>
-        </div>
-        <div classname="faq-container">
-            <div classname="faq-question" onclick="toggleAnswer(this)">
-                <h3>Can I use Worko for team
-                    collaboration?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#43;
-                </h3>
-            </div>
-            <div classname="faq-answer">
-                <p>Yes, Worko offers collaboration features that allow you to share tasks and projects with team members.
-                     You can assign tasks, leave comments, and monitor the progress of shared projects.</p>
-            </div>
-        </div>
-        <div classname="faq-container">
-            <div classname="faq-question" onclick="toggleAnswer(this)">
-                <h3>Is Worko available in multiple
-                    languages?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#43;
-                </h3>
-            </div>
-            <div classname="faq-answer">
-                <p>Yes, Taskify supports multiple languages to cater to a diverse user base.
-                     You can choose your preferred language in the app settings.</p>
-            </div>
-        </div>
-
-        
-
     </div>
 
 

@@ -1,9 +1,9 @@
 import React from 'react'; 
 const MyComponent = () => {
-    function toggleAnswer(question) {
-        var answer = question.nextElementSibling;
-        answer.style.display = (answer.style.display === 'none' || answer.style.display === '') ? 'block' : 'none';
-    }
+    // function toggleAnswer(question) {
+    //     var answer = question.nextElementSibling;
+    //     answer.style.display = (answer.style.display === 'none' || answer.style.display === '') ? 'block' : 'none';
+    // }
   const htmlContent = `
    
   <div class="container">

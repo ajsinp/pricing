@@ -1,10 +1,14 @@
 import React from 'react';
-import MyComponent from './test';
+import Money from './pricing';
+import FAQ from './faq';
 import './App.css';
 
 function App() {
   return (
-    <MyComponent/>
+    <div>
+      <Money/>
+      <FAQ/>
+    </div>
   );
 }
 

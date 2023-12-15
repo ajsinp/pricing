@@ -224,26 +224,34 @@ p {
   justify-content: flex-start;
 }
 
-.faq-container {
+.faqcontainer {
   max-width: 800px;
   margin: 10px auto;
   padding: 10px;
   border-radius: 8px;
   border-bottom: 1px solid #292626;
-  
-}
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+  }
 
 .faq-question {
-  margin-bottom: 10px;
+  /* padding-right: 300px; */
+  /* margin-bottom: 10px; */
   cursor: pointer;
   color: antiquewhite;
+  display: flex;
+  white-space: nowrap;
+  align-items: baseline;
+  
 }
 .faq-question :hover {
   color: azure;
 }
 
 .faq-answer {
-  display: none;
+  /* display: none; */
   margin-bottom: 20px;
 }
 
@@ -255,6 +263,7 @@ p {
   width: 100%;
   height: 100vh;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .frame_kit1 {
@@ -266,6 +275,7 @@ h2 {
   margin-bottom: 20px;
   font-weight: normal;
   font-family: sans-serif;
+  color: rgb(148,151,158);
 }
 
 h2.active {
@@ -274,21 +284,39 @@ h2.active {
 
 }
 
-ul {
+.task {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-ul li {
-  margin-bottom: 10px;
-  color: white;
-  border-bottom: 1px solid #292626;
-  padding: 10px;
-
-}
-li {
+.un-task {
+    margin-bottom: 10px;
+    color: white;
+    border-bottom: 1px solid #292626;
+    padding: 10px;
+  
+  }
+.un-task {
   font-family: sans-serif;
   font-size: smaller;
 }
+.taski {
+  margin-bottom: 10px;
+    color: white;
+    border-bottom: 1px solid #292626;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+/* .question {
+  align-items: flex-start;
+   
+  display: flex;
+  justify-content: space-between;
+} */
 
+.icon-st{
+  margin-left: auto;
+  padding-right: 100px;
+}
